@@ -1,0 +1,410 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+    font-family: 
+} /*dette kaldes for et browser reset, den nulstiller alt*/
+
+/*----------NAVIGATONS TOP MENU----------*/
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    font-family: Quicksand, helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #808080;
+
+}
+.topmenu a { 
+    text-decoration: none;
+    color: black;
+}
+
+.topmenu{
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+
+.logo img {
+    width: 300px;
+    padding-left: 10px;
+}
+
+.topmenu nav a:hover{
+    color:gray;
+}
+
+.topmenu nav {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.menu{
+    padding-top: 7px;
+}
+
+/*----------MELLEM MENU SEKTION----------*/
+.overskrift {
+    justify-content: center;
+    display: flex;
+    font-size:35px;
+    font-family: Quicksand, helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.overskrift a {
+    text-decoration:none;
+    color: black;
+}
+
+.overskrift2 {   
+    justify-content: center;
+    display: flex;
+    font-family: Quicksand, helvetica, sans-serif;
+}
+.portfoliomenu{
+    background-color:#E5E8ED;
+    margin-top: -10px;
+    padding-bottom: 20px;
+}
+.portfoliomenu nav a {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.knapper div {
+    padding: 15px 25px 15px 25px;
+    justify-content: center;
+    background-color:#E5E8ED;
+    margin: -20px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    
+}
+.knapper div a {
+    text-decoration: none;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px;
+    background-image: linear-gradient(#fff, #fffff9);
+    color: #333;
+    /*width: 60px;*/
+    
+}
+
+.knapper div a:hover{
+    background-image: linear-gradient(#fff, #eee);
+}
+
+
+.intro{
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 30px;
+    border: 2px solid gray;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+    margin: 110px 400px;
+    background-color: rgba(232, 232, 232, 0.46);
+    
+}
+
+.column2 {
+    height: 460px;
+}
+
+/*----------KONTAKT DEL----------*/
+.kontakt {
+   font-family: Quicksand, helvetica, sans-serif;
+   font-size: 25px; 
+   justify-content: center;
+   display: flex;
+   padding-top: 50px; 
+   padding-bottom: 10px;
+   background-color: #CACBCF;
+   border-top: 1px solid gray;
+   
+   
+}
+
+.kontakt1 {
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    background-color: #CACBCF;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    background-color: #CACBCF;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.instagram1{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+.row {
+  display: flex;
+}
+
+.column {
+  justify-content: space-around;
+  display: flex;  
+  padding: 20px 5px;
+  flex: 40.33%;
+      
+}
+
+/*---------OM MIG-----------*/
+.ommig{
+    font-family: Quicksand, helvetica, sans-serif;
+    background-color:#E5E8ED;
+    display:flex;
+    justify-content: center;
+    margin: -10px;
+    padding: 95px;
+    border-bottom: 1px solid gray;
+    font-size: 35px;
+}
+
+.navn{
+    font-family: Quicksand, helvetica, sans-serif;
+    padding-left: 310px;
+    margin-top: -130px;
+    font-size: 40px;
+}
+.tekst{
+    font-family: Quicksand, helvetica, sans-serif;
+    margin: 100px;
+    margin-top: 35px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.malene{
+    margin-top: -110px;
+    margin-left: 50px;
+    border:1px solid gray;
+    border-radius: 200px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+
+.column1 {
+  justify-content: space-around;
+  display: flex;
+  /*padding: 20px 1px;*
+  margin: 20px;
+  /*flex: 70.33%;*/
+  height:=350px;
+ 
+} 
+
+/*----------KONTAKT----------*/
+.navn1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size:30px;
+  font-family: Quicksand, helvetica, sans-serif;
+}
+.kort{
+   display: block;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+/*----------BRO OG CYCKEL----------*/
+.fr{
+    margin: 15px 20px 0px 5px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.efter{
+    margin: 15px 20px 0px 5px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 30px;
+}
+.fr-efter{
+    margin: 0px 20px 0px 5px;
+    padding-bottom: 5px;
+}
+.bro{
+    display: flex;
+    margin-left: 890px;
+    margin-right: 50px;
+    font-family: Quicksand, helvetica, sans-serif;
+    margin-top: -970px;
+    font-size: 40px;
+}
+
+.semster1{
+    display: flex;
+    margin-left: 960px;
+    margin-right: 50px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.broinfo{
+    display: flex;
+    margin-left: 720px;
+    margin-right: 100px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.kontakt-bro {
+   font-family: Quicksand, helvetica, sans-serif;
+   font-size: 25px; 
+   justify-content: center;
+   display: flex;
+   padding-top: 50px; 
+   padding-bottom: 10px;
+   background-color: #CACBCF;
+   border-top: 1px solid gray;
+   margin-top: 190px;
+}
+
+.kontakt1-bro {
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    background-color: #CACBCF;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+/*----------HJEMMESIDE----------*/
+
+.hjemmeside{
+    margin: 35px 20px 10px 20px;
+}
+.hjemmesideinfo {
+    display: flex;
+    margin-left: 720px;
+    margin-right: 100px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    }
+.hjemmesideoverskrifr{
+    display: flex;
+    margin-left: 890px;
+    margin-right: 50px;
+    font-family: Quicksand, helvetica, sans-serif;
+    margin-top: -950px;
+    font-size: 40px;
+}
+.kontakt-hjem {
+   font-family: Quicksand, helvetica, sans-serif;
+   font-size: 25px; 
+   justify-content: center;
+   display: flex;
+   padding-top: 50px; 
+   padding-bottom: 10px;
+   background-color: #CACBCF;
+   border-top: 1px solid gray;
+   margin-top: 450px;
+}
+
+.kontakt1-hjem {
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    background-color: #CACBCF;
+    margin-top: -20px;
+    padding-top: 10px;
+    }
+.sampels{
+    margin: -90px 10px 0px 300px;
+}
+/*----------APP----------*/
+    
+.appbild{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.sampel{
+    margin: 10px 20px 0px 180px;
+    
+}
+.app-overskrift{
+    display: flex;
+    margin-left: 860px;
+    margin-right: 80px;
+    font-family: Quicksand, helvetica, sans-serif;
+    margin-top: -1100px;
+    font-size: 40px;
+}
+
+.appinfo{
+    display: flex;
+    margin-left: 665px;
+    margin-right: 130px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.kontakt-app {
+   font-family: Quicksand, helvetica, sans-serif;
+   font-size: 25px; 
+   justify-content: center;
+   display: flex;
+   padding-top: 50px; 
+   padding-bottom: 10px;
+   background-color: #CACBCF;
+   border-top: 1px solid gray;
+   margin-top: 510px;
+}
+
+.kontakt1-app {
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+    background-color: #CACBCF;
+    margin-top: -20px;
+    padding-top: 10px;
+}
+.semster1-app{
+    display: flex;
+    margin-left: 910px;
+    margin-right: 90px;
+    font-family: Quicksand, helvetica, sans-serif;
+    font-size: 30px;
+    }
+
